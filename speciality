@@ -1,0 +1,28 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	while(t--){
+	    int x,y,z;
+	    cin>>x>>y>>z;
+	    if(x>y){
+	        if(x>z){
+	            cout<<"Setter"<<endl;
+	        }
+	        else if(z>x){
+	            cout<<"Editorialist"<<endl;
+	        }
+	    }
+	    else if(y>z){
+	        cout<<"Tester"<<endl;
+	    }
+	    else{
+	        cout<<"Editorialist"<<endl;
+	    }
+	}
+	return 0;
+}
+
