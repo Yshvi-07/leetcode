@@ -1,0 +1,26 @@
+#include <iostream>
+
+using namespace std;
+
+int powP(int a,int b){
+    if(b==0){
+        return 1;
+    }
+    
+    return a*powP(a,b-1);
+}
+
+
+
+
+int main()
+{
+    cout<<"Hello World";
+    int a,b;
+    cin>>a>>b;
+    int ans=powP(a,b);
+    cout<<ans<<endl;
+    
+
+    return 0;
+}
