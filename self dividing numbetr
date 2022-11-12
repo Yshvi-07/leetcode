@@ -1,0 +1,32 @@
+class Solution {
+public:
+    vector<int> selfDividingNumbers(int left, int right) {
+        vector<int>v;
+        for(int i=left;i<=right;i++){
+        int num=i;
+        int g=0;
+        //num=left;
+        //int d=right-left;
+        while(num){
+        
+            int r=num%10;
+            if(r!=0 && i%r==0){
+               g=1;
+            }
+            else{
+                g=0;
+                break;
+            }
+            num=num/10;
+        }
+            if(g==1)
+                
+            
+         v.push_back(i);  
+        
+        
+        
+        }
+        return v;
+    }
+};
