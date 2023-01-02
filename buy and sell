@@ -8,7 +8,6 @@ public:
             if(prices[i]<prices[d])
                 d=i;
             
-                
                     
                 
                 max=prices[i]-prices[d];
