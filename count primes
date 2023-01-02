@@ -13,6 +13,7 @@ public:
                 }
                 a[i]=r;
             }
+            //PRIME NUMBER CODE
         }
        return a;
     }
