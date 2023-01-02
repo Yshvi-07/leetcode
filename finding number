@@ -1,4 +1,6 @@
 class Solution {
+    //finding number
+
 public:
     int findNumbers(vector<int>& nums) {
         int c=0;
