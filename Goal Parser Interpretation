@@ -1,5 +1,6 @@
 class Solution {
 public:
+//stack
     string interpret(string command) {
         string s;
         for(int i=0;i<command.size();i++){
