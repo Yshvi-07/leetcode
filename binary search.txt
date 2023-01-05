@@ -1,0 +1,1 @@
+Binary Search Algorithm: The basic steps to perform Binary Search are:
