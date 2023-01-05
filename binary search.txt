@@ -1,5 +1,6 @@
 Binary Search Algorithm: The basic steps to perform Binary Search are:
 
+Begin with the mid element of the whole array as a search key.
 Found At Index 4
 Not Found
 Time Complexity: O (log n)
