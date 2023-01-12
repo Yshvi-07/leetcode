@@ -14,6 +14,7 @@ crend() – Returns a constant reverse iterator pointing to the theoretical elem
 #include <iostream>
 #include <vector>
  
+using namespace std;
 pop_back() – It is used to pop or remove elements from a vector from the back.
 insert() – It inserts new elements before the element at the specified position
 erase() – It is used to remove elements from a container from the specified position or range.
