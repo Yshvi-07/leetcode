@@ -15,6 +15,7 @@ crend() – Returns a constant reverse iterator pointing to the theoretical elem
 #include <vector>
  
 using namespace std;
+
 push_back() – It push the elements into a vector from the back
 pop_back() – It is used to pop or remove elements from a vector from the back.
 insert() – It inserts new elements before the element at the specified position
