@@ -17,6 +17,7 @@ crend() – Returns a constant reverse iterator pointing to the theoretical elem
 using namespace std;
  
 int main()
+{
 
 assign() – It assigns new value to the vector elements by replacing old ones
 push_back() – It push the elements into a vector from the back
