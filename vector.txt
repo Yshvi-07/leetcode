@@ -18,6 +18,7 @@ using namespace std;
  
 int main()
 {
+    vector<int> g1;
 
 assign() – It assigns new value to the vector elements by replacing old ones
 push_back() – It push the elements into a vector from the back
