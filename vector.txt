@@ -19,6 +19,7 @@ using namespace std;
 int main()
 {
     vector<int> g1;
+ 
 Modifiers: 
 
 assign() – It assigns new value to the vector elements by replacing old ones
