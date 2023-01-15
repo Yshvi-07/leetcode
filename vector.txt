@@ -20,6 +20,7 @@ int main()
 {
     vector<int> g1;
  
+    for (int i = 1; i <= 5; i++)
 Modifiers: 
 
 assign() – It assigns new value to the vector elements by replacing old ones
