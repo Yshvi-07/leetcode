@@ -25,6 +25,7 @@ int main()
  
     cout << "Output of begin and end: ";
     for (auto i = g1.begin(); i != g1.end(); ++i)
+        cout << *i << " ";
 Modifiers: 
 
 assign() – It assigns new value to the vector elements by replacing old ones
