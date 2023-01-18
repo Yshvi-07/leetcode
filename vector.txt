@@ -31,6 +31,7 @@ int main()
     for (auto i = g1.cbegin(); i != g1.cend(); ++i)
         cout << *i << " ";
  
+    cout << "\nOutput of rbegin and rend: ";
 Modifiers: 
 
 assign() – It assigns new value to the vector elements by replacing old ones
