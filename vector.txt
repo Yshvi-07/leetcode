@@ -30,6 +30,7 @@ int main()
     cout << "\nOutput of cbegin and cend: ";
     for (auto i = g1.cbegin(); i != g1.cend(); ++i)
         cout << *i << " ";
+ 
 Modifiers: 
 
 assign() – It assigns new value to the vector elements by replacing old ones
