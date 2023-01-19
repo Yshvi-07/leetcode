@@ -34,6 +34,7 @@ int main()
     cout << "\nOutput of rbegin and rend: ";
     for (auto ir = g1.rbegin(); ir != g1.rend(); ++ir)
         cout << *ir << " ";
+ 
 Modifiers: 
 
 assign() – It assigns new value to the vector elements by replacing old ones
