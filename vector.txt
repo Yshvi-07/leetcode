@@ -35,6 +35,7 @@ int main()
     for (auto ir = g1.rbegin(); ir != g1.rend(); ++ir)
         cout << *ir << " ";
  
+    cout << "\nOutput of crbegin and crend : ";
 Modifiers: 
 
 assign() – It assigns new value to the vector elements by replacing old ones
