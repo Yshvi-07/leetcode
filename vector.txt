@@ -50,6 +50,7 @@ Capacity
 
 
 size() – Returns the number of elements in the vector.
+max_size() – Returns the maximum number of elements that the vector can hold.
 CPP-STL-Self-Paced-Course
 
 Element access:
