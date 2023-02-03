@@ -58,6 +58,7 @@ shrink_to_fit() – Reduces the capacity of the container to fit its size and de
 reserve() – Requests that the vector capacity be at least enough to contain n elements.
 
 // C++ program to illustrate the
+// capacity function in vector
 CPP-STL-Self-Paced-Course
 
 Element access:
