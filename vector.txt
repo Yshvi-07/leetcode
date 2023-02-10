@@ -65,6 +65,7 @@ reserve() – Requests that the vector capacity be at least enough to contain n 
 using namespace std;
  
 int main()
+{
 CPP-STL-Self-Paced-Course
 
 Element access:
