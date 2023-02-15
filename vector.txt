@@ -71,6 +71,7 @@ int main()
     for (int i = 1; i <= 5; i++)
         g1.push_back(i);
  
+    cout << "Size : " << g1.size();
 CPP-STL-Self-Paced-Course
 
 Element access:
