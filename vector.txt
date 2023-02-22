@@ -77,6 +77,7 @@ int main()
  
     // resizes the vector size to 4
     g1.resize(4);
+ 
 CPP-STL-Self-Paced-Course
 
 Element access:
