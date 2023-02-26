@@ -82,6 +82,7 @@ int main()
     cout << "\nSize : " << g1.size();
  
     // checks if the vector is empty or not
+    if (g1.empty() == false)
 CPP-STL-Self-Paced-Course
 
 Element access:
