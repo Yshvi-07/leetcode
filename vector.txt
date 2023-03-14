@@ -87,6 +87,7 @@ int main()
     else
         cout << "\nVector is empty";
  
+    // Shrinks the vector
 CPP-STL-Self-Paced-Course
 
 Element access:
