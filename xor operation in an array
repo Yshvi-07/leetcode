@@ -1,0 +1,14 @@
+class Solution {
+public:
+    int xorOperation(int n, int start) {
+        int a[n];
+        int XOR=start;
+        for(int i=1;i<n;i++){
+            a[i]=start+2*i;
+            
+            XOR=XOR^a[i];
+            
+        }
+        return XOR;
+    }
+};
