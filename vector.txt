@@ -102,6 +102,7 @@ Capacity : 8
 Max_Size : 4611686018427387903
 Size : 4
 Vector is not empty
+Vector elements are: 1 2 3 4
 CPP-STL-Self-Paced-Course
 
 Element access:
