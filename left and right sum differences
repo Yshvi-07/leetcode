@@ -1,0 +1,29 @@
+class Solution {
+public:
+    vector<int> leftRigthDifference(vector<int>& nums) {
+       vector<int>ans;
+       vector<int>rightt;
+       vector<int>leftt;
+
+      int right=0;
+      int left=0;
+       for(int i=0;i<nums.size();i++){
+         rightt.push_back(right);
+         leftt.push_back(left);
+         left+=nums[i];
+         right+=nums[nums.size()-1-i];
+
+
+       } 
+       
+       
+       for(int i=0;i<nums.size();i++){
+           
+           cout<<leftt[i]<<" "<<rightt[i]<<endl;
+           
+         
+        ans.push_back(abs(leftt[i]-rightt[nums.size()-1-i]));  
+       }
+       return ans;
+    }
+};
