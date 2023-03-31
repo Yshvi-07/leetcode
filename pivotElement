@@ -1,0 +1,20 @@
+class Solution {
+public:
+    int pivotInteger(int n) {
+      int t=0;
+      for(int i=1;i<=n;i++){
+          t+=i;
+      }  
+      int a=0,d=0;
+      for(int i=1;i<=n;i++){
+          d=i+d;
+         a=t-d+i;
+         if(a==d){
+             return i;
+         }
+        
+      }
+     
+      return -1;
+    }
+};
