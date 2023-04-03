@@ -7,3 +7,4 @@ public:
             int  d= abs(nums[i]-nums[j]);
                     if(d==k){
                         c++;
+                    }
