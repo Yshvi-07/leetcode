@@ -6,3 +6,4 @@ public:
             for(int j=1+i;j<nums.size();j++){
             int  d= abs(nums[i]-nums[j]);
                     if(d==k){
+                        c++;
