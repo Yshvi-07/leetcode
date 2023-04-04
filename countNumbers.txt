@@ -8,3 +8,4 @@ public:
                     if(d==k){
                         c++;
                     }
+                
