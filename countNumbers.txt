@@ -9,6 +9,7 @@ public:
                         c++;
                     }
                 
+            }
         }
         return c;
     }
