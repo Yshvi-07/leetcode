@@ -1,0 +1,21 @@
+class Solution {
+public:
+    vector<int> successfulPairs(vector<int>& spells, vector<int>& potions, long long success) {
+        vector<int>ans;
+        vector<int>a=potions;
+        int c=0;
+       
+        for(int i=0;i<spells.size();i++){
+             long long r=0;
+            for(int j=0;j<potions.size();j++){
+                 r=spells[i]*potions[j];
+            if(r>=success){
+                c++;
+            }
+            }
+           ans.push_back(c);
+           c=0;
+        }
+       return ans; 
+    }
+};1
