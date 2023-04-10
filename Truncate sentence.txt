@@ -3,3 +3,4 @@ public:
     string truncateSentence(string s, int k) {
        int m=0;
        string ans;
+       char c=' ';
